@@ -1,0 +1,49 @@
+.revenue-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2a2a2a;
+    width:300px;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-top:2rem;
+}
+
+.revenue-icon{
+    background-color: black;
+    border-radius: 50%;
+    height:3rem;
+    width:3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.revenue-icon p{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.revenue-line{
+    height:0.5rem;
+    background-color: white;
+    content: "";
+}
+
+.revenue-progress{
+    height: 100%;
+    display: block;
+    background-color: #3827b1;
+    width:75%;
+}
+
+.revenue-content p{
+   margin-bottom:0;
+}
+#revenue{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom:1rem;
+}
+
+/* blue color #3827b1*/
